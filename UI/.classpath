@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/javaFx"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/vipul_workspace/UI/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/vipul_workspace/UI/java-mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/vipul_workspace/UI/jna.jar"/>
+	<classpathentry kind="lib" path="D:/vipul_workspace/UI/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/vipul_workspace/UI/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/vipul_workspace/UI/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/vipul_workspace/UI/opencsv-3.3.jar"/>
+	<classpathentry kind="lib" path="D:/vipul_workspace/UI/quartz-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_161/lib/javafx-mx.jar"/>
+	<classpathentry kind="lib" path="D:/vipul_workspace/UI/jfxrt.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

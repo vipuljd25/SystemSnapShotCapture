@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="106.0" prefWidth="391.0" styleClass="anchor" stylesheets="@../controller/datpicker.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.snap.ui.controller.DateTimePickerController">
+   <children>
+      <DatePicker fx:id="dp" layoutX="4.0" layoutY="23.0" styleClass="datepicker" />
+      <Button fx:id="ok" layoutX="202.0" layoutY="61.0" mnemonicParsing="false" onAction="#ok_pressed" text="OK" />
+      <ComboBox fx:id="withhours" layoutX="241.0" layoutY="23.0" prefHeight="27.0" prefWidth="60.0" styleClass="combobox" />
+      <ComboBox fx:id="withminutes" layoutX="317.0" layoutY="23.0" prefHeight="27.0" prefWidth="60.0" styleClass="combobox" />
+   </children>
+</AnchorPane>

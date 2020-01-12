@@ -1,0 +1,18 @@
+.anchore{
+	-fx-border-color: white ; 
+	-fx-background-color: rgb(127,127,127); 
+	-fx-background-insets: 1, 2, 3;
+    -fx-background-radius: 9 10 10 10, 9 10 10 10, 9 10 11 10;
+    -fx-padding: 0.933333em 0.193333em 0.1666667em 0.183333em; /* 4 1 8 1 */
+}
+.button{
+	-fx-font-weight: bold; 
+	-fx-text-fill: rgb(255,255,255);
+}
+.text-input{
+	
+	-fx-prompt-text-fill: white;
+	-fx-background-color:  rgb(165,165,165);
+	-fx-text-fill: white;
+	-fx-font-weight: bold; 
+}

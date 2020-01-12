@@ -1,0 +1,54 @@
+.button{
+	-fx-background-color:  rgb(165,165,165);
+	-fx-font-weight: bold; 
+	-fx-text-fill: rgb(255,255,255);
+}
+.button1-2{
+	-fx-background-color:  rgb(127,127,127);
+}
+.table-cell{
+	-fx-alignment:baseline-left ;
+	-fx-font-weight: bold; 
+	-fx-text-fill: rgb(255,255,255);
+	-fx-background-color: rgb(165,165,165);
+}
+.table-cell:hover{
+	-fx-background-color: rgb(0,112,192)
+}
+.table-row-cell:selected .table-cell {
+    -fx-background-color: rgb(0,112,192);
+}
+.table{
+	-fx-background-color: rgb(165,165,165)
+}
+.hbox{
+	-fx-background-color:rgb(127,127,127);
+	-fx-border-color: white ; 
+	-fx-background-insets: 1, 2, 3;
+ 	-fx-background-radius: 9 9 9 9, 9 6 6 6, 9 5 5 5;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+.text-input{
+	-fx-background-color: rgb(127,127,127);
+	-fx-text-fill: white;
+	-fx-font-weight: bold; 
+}
+.text-input1{
+	
+	-fx-prompt-text-fill: white;
+	-fx-background-color:  rgb(165,165,165);
+	-fx-text-fill: white;
+	-fx-font-weight: bold; 
+}

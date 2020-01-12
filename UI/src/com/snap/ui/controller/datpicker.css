@@ -1,0 +1,13 @@
+.anchor{
+	
+	-fx-background-color: rgb(127,127,127);
+}
+
+.button{
+	
+	-fx-background-color: rgb(165,165,165);
+}
+.combobox{
+	-fx-background-color: rgb(165,165,165);
+	-fx-text-fill: rgb(67,154,138);
+}

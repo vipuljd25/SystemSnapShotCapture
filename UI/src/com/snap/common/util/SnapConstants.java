@@ -1,0 +1,52 @@
+package com.snap.common.util;
+
+public class SnapConstants {
+
+	public final static String APP_DATA_LOCATION = "C:\\Scripts\\Snap-Session";
+	public final static String WINDOW_NAME_LIST = "WindowNameList.txt";
+	public final static String WINDOW_NAME_EXE_PATH_LIST = "ExePathList.txt";
+	public final static String IE_URLS_FILE_PATH = "IE_URLS_FILE.txt";
+	public final static String FOLDER_URLS_FILE_PATH = "FOLDER_URLS_FILE.txt";
+	public final static String MOZILLA_URLS_PATH = "MOZILA_URLS_PATHS.txt";
+	public final static String SNAPSHOT_WINDOW_LIST = "SnapshotWindowList.csv";
+	public final static String NOTEPAD_PATH_LIST = "NotepadPathList.txt";
+	public final static String IE_URL_RECOVERY_VBS = "ieurlrecovery.vbs";
+	public final static String FOLDER_URL_RECOVERY_VBS = "folderurlrecovery.vbs";
+	public final static String IE_URL_RECOVERY_JS = "ieurlExecute.js";
+	public static final String SYSTEM_CRASH = "SystemCrash";
+	public static final String SYSTEM_CRASH_TMP = "SystemCrashTmp";
+	public final static String MSDOC_URLS_FILE_PATH = "MSDOC_URLS_FILE.txt";
+	public final static String MSDOC_URL_RECOVERY_VBS = "msdocurlrecovery.vbs";
+	public final static String MSPPT_URLS_FILE_PATH = "MSPPT_URLS_FILE.txt";
+	public final static String MSPPT_RECOVERY_VBS = "msppturlrecovery.vbs";
+	public final static String MSVISIO_URLS_FILE_PATH = "MSVISIO_URLS_FILE.txt";
+	public final static String MSVISIO_RECOVERY_VBS = "ieurlrecovery.vbs";
+	public final static String MSEXCEL_URLS_FILE_PATH = "MSEXCEL_URLS_FILE.txt";
+	public final static String MSEXCEL_RECOVERY_VBS = "msexcelurlrecovery.vbs";
+	public final static String MSPUBLISHER_URLS_FILE_PATH = "MSPUBLISHER_URLS_FILE.txt";
+	public final static String MSPUBLISHER_URL_RECOVERY_VBS = "mspublisherurlrecovery.vbs";
+	public final static String MSPROJECT_URLS_FILE_PATH = "MSPROJECT_URLS_FILE.txt";
+	public final static String MSPROJECT_URL_RECOVERY_VBS = "msprojecturlrecovery.vbs";
+	public final static String SNAPSHOT_DETAIL_TXT = "SnapShotDetail.csv";
+	public final static String RECEIVED_SNAPSHOT_WINDOW_LIST = "ReceivedSnapshotWindowList.csv";
+	public final static String RECEIVED_SNAPSHOT = "ReceivedSnapshot";
+	public final static String RECEIVED_FILES = "Received zip files";
+	public final static String WINDOW_TITLE = "Smart Work Station";
+	public final static String WINDOWS_APP_FILE = "WindowsAppDetail.txt";
+	public final static String ACTIVE_APP_LIST = "ActiveApplicationList.txt";	
+	public final static String ADDED_WINDOW_NAME = "AddedWindowName.txt";
+	public final static String TO_BE_CLOSED_LIST = "CloseApplicationList.txt";
+	public final static String EXE_TO_BE_CLOSED_LIST = "ExeTobeClosed.txt";
+	public final static String FILES_TO_BE_CLOSED_LIST = "FilesTobeClosed.txt";
+	public final static String CLOSE_EXE_FILE_VBS = "CloseExeFile.vbs";
+	public final static String CLOSE_OTHER_FILES_VBS = "CloseOtherFiles.vbs";
+	public final static String APP_DATA_VBS = "C:\\Scripts";
+	public final static String EDIT_WINDOW_TITLE = "Editing SS :";
+	public final static String SHARE_WINDOW_TITLE = "Sharing SS :";
+	public final static String SCHEDULE_WINDOW_TITLE = "Schedule SS :";
+	public final static String DELETE_DISABLED = "Cannot Be Deleted";
+	public final static String LAUNCH_DONE = "Launch Successfully";
+	public final static String CLOSE_DONE = "Closed Successfully ";
+	public final static int SLEEP_TIME_FOR_POPUP = 6000;
+	public static String WINDOWSAPPS_EXE = "applicationframehost.exe";
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.snap.ui.controller.ReceivedWorkStationDetailController">
+   <center>
+      <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="150.0" text="Name" />
+          <TableColumn fx:id="detail" minWidth="0.0" prefWidth="125.0" text="Detail" />
+            <TableColumn fx:id="dateTime" prefWidth="155.0" text="Created Date" />
+            <TableColumn fx:id="launch" prefWidth="187.0" text="Launch URL" />
+            <TableColumn fx:id="action" prefWidth="182.0" text="Action" />
+        </columns>
+      </TableView>
+   </center>
+   <top>
+      <HBox prefHeight="112.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <Region prefHeight="100.0" prefWidth="399.0" />
+            <Label prefHeight="51.0" prefWidth="571.0" text="Received WorkStation ">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="30.0" />
+               </HBox.margin>
+            </Label>
+            <Region prefHeight="100.0" prefWidth="399.0" />
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
